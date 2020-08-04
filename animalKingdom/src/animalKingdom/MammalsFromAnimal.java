@@ -2,23 +2,26 @@ package animalKingdom;
 
 
 public class MammalsFromAnimal extends AbstractAnimal{
-    private String name;
-    private int year;
+    // public String class;
 
     public MammalsFromAnimal(String name, int year){
-        this.name = name;
-        this.year = year;
+        super(name, year);
+        // class = "mammal"
     }
 
-    @Override
-    public String getName(){
-        return name;
-    }
+    // @Override
+    // public String getName(){
+    //     return name;
+    // }
 
-    @Override
-    public int getYear(){
-        return year;
-    }
+    // @Override
+    // public int getYear(){
+    //     return year;
+    // }
+
+    // public String getClass(){
+    //     return class;
+    // }
 
     @Override
     public String getMove(){
@@ -30,7 +33,7 @@ public class MammalsFromAnimal extends AbstractAnimal{
         return "lungs";
     }
 
-    @Override @Override
+    @Override
     String getReproduce(){
         return "live births";
     }
